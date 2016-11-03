@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="-http://www.opengis.net/kml/2.2">
+
+<Document>
+  
+    <Style id="transBluePoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7dff0000</color>
+      </PolyStyle>
+    </Style>
+    
+    
+    <Style id="transRedPoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>a00000ff</color>
+      </PolyStyle>
+    </Style>
+    
+
+    <Style id="z1">
+	<IconStyle>
+	<Icon>
+		<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+	</Icon>
+	</IconStyle>
+    </Style>
+    
+    
+    <Placemark>
+    	<name>Home</name>
+	<styleUrl>#z1</styleUrl><Point><coordinates>-118.2904955,34.0309532</coordinates></Point>
+    </Placemark>
+    
+    <Placemark>
+    	<name>Manas Indian Cuisine</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.2939375,34.0288108</coordinates></Point>
+    </Placemark>
+    
+    <Placemark>
+    	<name>Chase Bank</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.2822402,34.0230096</coordinates></Point>
+    </Placemark>
+    
+    <Placemark>
+    	<name>Chipotle Mexican Grill</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.2846802,34.0169487</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+    	<name>Lyon Center</name>
+	<styleUrl>#z1</styleUrl><Point><coordinates>-118.2906224,34.0244091</coordinates></Point>
+    </Placemark>
+    
+    <Placemark>
+    	<name>Ralphs</name>
+    	<styleUrl>#z1</styleUrl><Point><coordinates>-118.2932661,34.0320736</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+    	<name>Natural History Museum of Los Angeles County</name>
+	<styleUrl>#z1</styleUrl><Point><coordinates>-118.2909643,34.0169611</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+    	<name>Art of Living Studio</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.2859008,34.0304735</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+    	<name>Spudnuts Donuts</name>
+	<styleUrl>#z1</styleUrl><Point><coordinates>-118.281013,34.0252024</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+    	<name>McAlister Field</name>
+	<styleUrl>#z1</styleUrl><Point><coordinates>-118.2849419,34.0265617</coordinates></Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Polygon1</name>
+      <styleUrl>#transBluePoly</styleUrl>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+            	-118.2909643,34.0169611,17
+		-118.2846802,34.0169487,17
+		-118.2849419,34.0265617,17
+		-118.2906224,34.0244091,17
+		-118.2909643,34.0169611,17    
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+
+    <Placemark>
+      <name>Polygon2</name>
+      <styleUrl>#transRedPoly</styleUrl>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+            	-118.2904955,34.0309532,17
+            	-118.2932661,34.0320736,17
+		-118.2939375,34.0288108,17
+		-118.2822402,34.0230096,17
+		-118.281013,34.0252024,17
+		-118.2859008,34.0304735,17
+		-118.2904955,34.0309532,17 
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+
+    
+  </Document>
+</kml>
+
