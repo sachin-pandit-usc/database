@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="-http://www.opengis.net/kml/2.2">
+
+<Document>
+  
+    <Style id="transBluePoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7dff0000</color>
+      </PolyStyle>
+    </Style>
+    
+    
+    <Style id="transRedPoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>a00000ff</color>
+      </PolyStyle>
+    </Style>
+    
+
+    <Style id="z1">
+	<IconStyle>
+	<Icon>
+		<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+	</Icon>
+	</IconStyle>
+    </Style>
+    
+    
+    <Placemark>
+    	<name>Home</name>
+	<styleUrl>#z1</styleUrl><Point><coordinates>-118.2904955,34.0309532</coordinates></Point>
+    </Placemark>
+    
+    <Placemark>
+    	<name>Manas Indian Cuisine</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.2939375,34.0288108</coordinates></Point>
+    </Placemark>
+    
+    <Placemark>
+    	<name>Chase Bank</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.2822402,34.0230096</coordinates></Point>
+    </Placemark>
+    
+    <Placemark>
+    	<name>Chipotle Mexican Grill</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.2846802,34.0169487</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+    	<name>Lyon Center</name>
+	<styleUrl>#z1</styleUrl><Point><coordinates>-118.2906224,34.0244091</coordinates></Point>
+    </Placemark>
+    
+    <Placemark>
+    	<name>Ralphs</name>
+    	<styleUrl>#z1</styleUrl><Point><coordinates>-118.2932661,34.0320736</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+    	<name>Natural History Museum of Los Angeles County</name>
+	<styleUrl>#z1</styleUrl><Point><coordinates>-118.2909643,34.0169611</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+    	<name>Art of Living Studio</name>
+        <styleUrl>#z1</styleUrl><Point><coordinates>-118.2859008,34.0304735</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+    	<name>Spudnuts Donuts</name>
+	<styleUrl>#z1</styleUrl><Point><coordinates>-118.281013,34.0252024</coordinates></Point>
+    </Placemark>
+
+    <Placemark>
+    	<name>McAlister Field</name>
+	<styleUrl>#z1</styleUrl><Point><coordinates>-118.2849419,34.0265617</coordinates></Point>
+    </Placemark>
+    
+    <Placemark>
+    	<name>SGM</name>
+	<styleUrl>#z1</styleUrl><Point><coordinates>-118.2894235,34.0212693</coordinates></Point>
+    </Placemark>
+    
+    
+    <Placemark>
+      <name>Polygon2</name>
+      <styleUrl>#transRedPoly</styleUrl>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+-118.2867034,34.021242,10
+-118.286733325,34.0212429975,10
+-118.286822206,34.0212499203,10
+-118.286967391,34.0212683979,10
+-118.287164571,34.0213034806,10
+-118.287407933,34.0213593801,10
+-118.287690371,34.0214392459,10
+-118.288003748,34.0215449856,10
+-118.288339186,34.0216771386,10
+-118.288687382,34.0218348062,10
+-118.289038942,34.0220156445,10
+-118.289384709,34.0222159183,10
+-118.289716078,34.022430615,10
+-118.290025291,34.022653615,10
+-118.290305688,34.0228779113,10
+-118.290551918,34.02309587,10
+-118.290760094,34.0232995213,10
+-118.290927887,34.0234808707,10
+-118.291054563,34.0236322157,10
+-118.291140947,34.0237464581,10
+-118.291189337,34.0238173973,10
+-118.291203353,34.0238399945,10
+-118.291187735,34.0238105949,10
+-118.291148105,34.0237271014,10
+-118.291090688,34.023589091,10
+-118.291022025,34.0233978686,10
+-118.290948661,34.0231564574,10
+-118.290876851,34.0228695242,10
+-118.290812279,34.0225432429,10
+-118.290759797,34.0221851008,10
+-118.290723215,34.0218036555,10
+-118.290705128,34.0214082507,10
+-118.290706805,34.0210087025,10
+-118.290728127,34.0206149672,10
+-118.290767599,34.0202368044,10
+-118.290822411,34.0198834469,10
+-118.290888566,34.0195632912,10
+-118.290961053,34.0192836196,10
+-118.291034076,34.0190503645,10
+-118.291101309,34.0188679243,10
+-118.291156187,34.0187390368,10
+-118.291192203,34.0186647152,10
+-118.29120321,34.0186442495,10
+-118.291183718,34.018675271,10
+-118.291129159,34.0187538787,10
+-118.291036122,34.0188748213,10
+-118.290902549,34.0190317281,10
+-118.29072787,34.0192173781,10
+-118.29051309,34.0194239976,10
+-118.290260802,34.0196435739,10
+-118.289975147,34.0198681726,10
+-118.28966171,34.0200902453,10
+-118.289327351,34.0203029172,10
+-118.28897999,34.0205002405,10
+-118.288628344,34.0206774073,10
+-118.288281635,34.0208309096,10
+-118.287949263,34.0209586445,10
+-118.287640484,34.0210599574,10
+-118.287364071,34.0211356242,10
+-118.287128011,34.0211877718,10
+-118.286939205,34.0212197419,10
+-118.286803229,34.0212359043,10
+-118.286724124,34.0212414254,10
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+
+    
+  </Document>
+</kml>
+
