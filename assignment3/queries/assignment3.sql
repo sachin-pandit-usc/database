@@ -43,7 +43,7 @@ Final step: we create a traversal source in order to iterate the nodes in the gr
 
 /*******************************************************/
 /* Query2 */
-g.V().as('a').in('corequisite').as('b').out('prerequisite').select('b', 'a')
+g.V().as('b').in('corequisite').as('a').out('prerequisite').select('a', 'b')
 
 /* Query2 Explanation:
 The basic idea here is to detect all the doubly-connected nodes. We can achieve this by grouping the set of nodes into two categories. In the first category "a" we find all the nodes from which the edge "corequisite" emerges, and in the second category "b" we find all the nodes which is end point of the edge "prerequisite", by doing this we get both end of the double-connected nodes.*/

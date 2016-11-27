@@ -8,7 +8,7 @@ g.addV(id,'CS420').addE('prerequisite').to(g.addV(id,'CS220')).outV().addE('core
 /* Query1 Explanation:
 The basic idea here is to create a tinkerpop graph, and using the instance of that graph we need to add 8 vertices and 9 edges.
 
-First create a graph instance named "g"  using a traversal source, then create a vertex using the command addV(), and add an edge between the nodes using the command addE(). To traverse out of a vertex use outV(), then add an edge, and to reach neighbouring node we use inV(). The same step is repeated for each vertex and edge addition.
+First create a graph instance named "g"  using a traversal source, then create a vertex using the command addV(), and add an edge between the nodes using the command addE(). To traverse out of a vertex use outV(), and to reach neighbouring node we use inV(). The same step is repeated for each vertex and edge addition.
 /*******************************************************/
 
 
@@ -17,7 +17,7 @@ First create a graph instance named "g"  using a traversal source, then create a
 
 /*******************************************************/
 /* Bonus query2 */
-g.V().as('a').in('corequisite').as('b').out('prerequisite').select('b', 'a')
+g.V().as('b').in('corequisite').as('a').out('prerequisite').select('a', 'b')
 
 /* Explanation same as the one for query2 in "assignment3.sql" document */
 /*******************************************************/
